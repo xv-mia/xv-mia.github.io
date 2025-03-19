@@ -37,7 +37,7 @@ section:first-child {
 .main-title {
   color: #d49494;
   font-family: Parisienne;
-  font-size: 6rem;
+  font-size: 7rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -48,14 +48,14 @@ section:first-child {
   left: -10px;
 }
 .main-title span {
-  font-size: 3.6rem;
+  font-size: 4rem;
   margin-left: -10px;
 }
 
 .main-subtitle {
   color: #b95c50;
   font-family: Cinzel;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
@@ -66,7 +66,7 @@ section:first-child {
 p.frase1 {
   color: #b95c50;
   font-family: Parisienne;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
@@ -147,6 +147,9 @@ button,
   width: 80%;
   margin-top: 1.5rem;
   align-items: center;
+}
+.button .xs {
+  font-size: 9px;
 }
 
 /* slider carousel */
