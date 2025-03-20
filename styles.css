@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 29px 16px 20px 0px rgba(0, 0, 0, 0.25);
   padding: 2rem;
   width: calc(100% - 4rem);
@@ -153,6 +153,12 @@ button,
 }
 .button .xs {
   font-size: 9px;
+}
+
+button:hover, button:active,
+a.button:hover, a.button:active {
+    background: #a9627a;
+    transition: all 0.25s ease-in-out;
 }
 
 /* slider carousel */
